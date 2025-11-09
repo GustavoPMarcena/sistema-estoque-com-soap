@@ -1,4 +1,4 @@
-package com.example.producing_web_service;
+package com.ifpb.projeto_com_soap.cep;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

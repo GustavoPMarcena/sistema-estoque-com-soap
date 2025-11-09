@@ -1,0 +1,32 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://ifpb.com/projeto_com_soap/cep"
+           targetNamespace="http://ifpb.com/projeto_com_soap/cep"
+           elementFormDefault="qualified">
+
+    <xs:element name="getCepRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="cep" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getCepResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="endereco" type="tns:endereco"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="endereco">
+        <xs:sequence>
+            <xs:element name="cep" type="xs:string"/>
+            <xs:element name="logradouro" type="xs:string"/>
+            <xs:element name="bairro" type="xs:string"/>
+            <xs:element name="localidade" type="xs:string"/>
+            <xs:element name="uf" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>
