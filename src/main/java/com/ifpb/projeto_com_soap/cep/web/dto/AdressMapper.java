@@ -1,6 +1,6 @@
 package com.ifpb.projeto_com_soap.cep.web.dto;
 
-import com.ifpb.projeto_com_soap.cep.Endereco;
+import com.ifpb.projeto_com_soap.cep.model.Endereco;
 import org.modelmapper.ModelMapper;
 
 public class AdressMapper {

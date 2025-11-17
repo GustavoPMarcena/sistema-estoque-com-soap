@@ -1,6 +1,6 @@
 package com.ifpb.projeto_com_soap.cep.service;
 
-import com.ifpb.projeto_com_soap.cep.Endereco;
+import com.ifpb.projeto_com_soap.cep.model.Endereco;
 import jakarta.jws.WebMethod;
 import jakarta.jws.WebParam;
 import jakarta.jws.WebResult;
